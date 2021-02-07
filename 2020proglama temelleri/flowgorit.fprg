@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-23 11:07:44 &#214;S"/>
+        <attribute name="created" value="bGVub3ZvO0RFU0tUT1AtTFVRUlFLSzsyMDIwLTExLTIzOzA4OjQ3OjEyIMOWUzszMjE0"/>
+        <attribute name="edited" value="bGVub3ZvO0RFU0tUT1AtTFVRUlFLSzsyMDIwLTExLTIzOzExOjA3OjQ0IMOWUzsxOzMzMTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vize, final, ortalama" type="Integer" array="False" size=""/>
+            <input variable="vize"/>
+            <input variable="final"/>
+            <assign variable="ortalama" expression="vize *0.3 + final*0.8"/>
+            <output expression="ortalama" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

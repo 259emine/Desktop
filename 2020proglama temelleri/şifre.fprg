@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-23 11:56:31 &#214;S"/>
+        <attribute name="created" value="bGVub3ZvO0RFU0tUT1AtTFVRUlFLSzsyMDIwLTExLTIzOzExOjM2OjM3IMOWUzszMjEz"/>
+        <attribute name="edited" value="bGVub3ZvO0RFU0tUT1AtTFVRUlFLSzsyMDIwLTExLTIzOzExOjU2OjMxIMOWUzs1OzMzMjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sifre" type="String" array="False" size=""/>
+            <do expression="sifre != &quot;aliveli4950&quot;">
+                <output expression="&quot;l&#252;tfen &#351;ifreyi giriniz&quot;" newline="True"/>
+                <input variable="&#351;ifre"/>
+            </do>
+            <output expression="&quot;Giri&#351; onayland&#305;...&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

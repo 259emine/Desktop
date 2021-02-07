@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>İçtenyazılım</title>
+<style>
+    body{
+	    margin: 0; padding: 0; height: 100vh;
+		background: rgb(123, 201, 201);
+		overflow: hidden; display: flex;
+	}
+	nav{
+	   display: flex;
+	   align-items: center; justify-content: center;
+	}
+	nav ul{
+	    list-style-type: none; padding: 0;
+		background: transparent; height: 100vh;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	}
+	nav ul li{
+	    font-size:30px background: transparent;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+		letter-spacing: 0.1rem;
+		width: 5em; height: 1.5em; line-height: 1.5em;
+		position: relative; overflow: hidden;
+		margin:0.5em; margin-top: 45px; cursor: pointer;
+		border-radius: 10px; padding-left: 1px;
+	}
+	nav ul li span{
+	    color: white; mix-blende-mode: difference;
+	}
+	nav ul li::before{
+	    content: "";
+		position: absolute; width: 1.5em; height: inherit;
+		background: rgba(0, 0, 0, 0.8);
+		top: 0; left: -0.7em; transition: 0.5s ease-out;
+	}
+	nav ul li:hover::before { width: 6em: }
+</style>
+</head>
+
+<body>
+<nav> 
+    <ul>
+       <li><span>Home</span></li>
+	   <li><span>Products</span></li>
+	   <li><span>Services</span></li>
+	   <li><span>Contact</span></li>
+	   <li><span>About</span></li>
+	   <li><span>Gallery</span></li>
+    </ul>
+</nav>
+</body>
+</html>

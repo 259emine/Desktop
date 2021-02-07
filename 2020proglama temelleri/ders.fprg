@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-23 11:36:34 &#214;S"/>
+        <attribute name="created" value="bGVub3ZvO0RFU0tUT1AtTFVRUlFLSzsyMDIwLTExLTIzOzExOjA3OjQ4IMOWUzszMjEz"/>
+        <attribute name="edited" value="bGVub3ZvO0RFU0tUT1AtTFVRUlFLSzsyMDIwLTExLTIzOzExOjM2OjM0IMOWUzsxOzMzMTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, t" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="0"/>
+            <assign variable="t" expression="0"/>
+            <do expression="x&lt;=10">
+                <assign variable="t" expression="t+x"/>
+                <assign variable="x" expression="x+1"/>
+            </do>
+            <output expression="&quot;1 den 10 a kadar say&#305;lar&#305;n toplam&#305; = &quot; &amp; t" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
